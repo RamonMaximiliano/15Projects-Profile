@@ -1,57 +1,104 @@
-*{
+* {
     box-sizing: border-box;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-body{
-    background-color:rgb(165, 165, 165);
+body {
+    background-color: rgb(165, 165, 165);
 }
 
-.login{
-    width:550px;
-    margin:auto;
-    margin-top:100px;
- 
+
+/*FORM*/
+
+.login {
+    padding:10px;
+    width: 620px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
 }
 
-.login-image{
-    background-color:blueviolet;
-    width:100px;
+.login-image {
+    background-color: blueviolet;
+    width: 100px;
     height: 100px;
-    margin:auto;
+    margin: auto;
     border-radius: 50%;
     text-align: center;
     align-items: center;
-    position:absolute;
-    margin-top:-50px;
-    margin-left:225px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 250px;
 }
 
-.profile-avatar{
-    margin-top:15px;
-    margin-left:5px;
-    width:60px;
+.profile-avatar {
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 60px;
 }
 
-.login-title{
-    padding-top:70px;
-    font-size:40px;
+.login-title {
+    padding-top: 70px;
+    font-size: 40px;
     text-align: center;
     align-items: center;
-    background-color: white;
-    height: 150px;
+    margin-bottom: 30px;
 }
 
-.username-label, .password-label{
+.username-label, .password-label {
+    margin: 10px;
+    margin-bottom: 50px;
     font-weight: bold;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.login-bottom {
+    display: flex;
+    margin: 10px;
+    width: 580px;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+.notuser{
+    margin-right:-250px;
+}
+
+.password-input, .user-name-input, .login-button {
+    background-color: rgb(204, 204, 204);
+    margin: 10px;
+    width: 580px;
+    height: 45px;
+}
+
+.password-input, .user-name-input {
+    margin-bottom: 20px;
+    border:none;
+    padding:5px;
     font-size:15px;
 }
 
-.login-bottom{
-    display:flex;
+.login-button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 25px;
+    height: 50px;
 }
 
-.password-input,.user-name-input,.login-button{
-    width:550px;
-}
+/*FORM*/
+
+
+
+/*PROFILE CARD*/
+
+
+
+
+
+
+
+
+
+/*PROFILE CARD*/
