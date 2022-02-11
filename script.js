@@ -1,15 +1,21 @@
 /* Top:
 10 - Simple login form
 Form validator
-Use login form to provide data to the profile card
+Use login form to provide data to the profile card, create text
 
 Middle:
 8 - Profile card
 
+Create upload image button
+
 In the bottom:
 5 - Social media icons
+
+
 Rate the site
 6 - star rating
+
+
 
 ----------------------------------------------------------------------------------------------------
 OTHER PROJECT:

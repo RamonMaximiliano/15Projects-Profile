@@ -85,6 +85,11 @@ body {
     color: white;
     font-size: 25px;
     height: 50px;
+     border-style:none; 
+}
+
+.login-button:hover {
+    background-color: rgb(163, 89, 233);
 }
 
 /*FORM*/
@@ -176,8 +181,47 @@ body {
 .media-icons{
     width:50px;
     height: 50px;
+    padding:1px;
     box-shadow: rgb(121, 121, 121) 2px 2px 20px 0px ;
     border-radius: 50%;
+    transition:0.2s;
 }
+
+.media-icons:hover{
+    background-color:rgb(205, 165, 243); ;
+}
+
+
+#facebook{
+    content: url("images/media-icons/facebook.png");
+}
+#facebook:hover{
+    content: url("images/media-icons-black/facebook.png");
+}
+#instagram{
+    content: url("images/media-icons/instagram.png");
+}
+#instagram:hover{
+    content: url("images/media-icons-black/instagram.png");
+}
+#twitter{
+    content: url("images/media-icons/twitter.png");
+}
+#twitter:hover{
+    content: url("images/media-icons-black/twitter.png");
+}
+#linkedin{
+    content: url("images/media-icons/linkedin.png");
+}
+#linkedin:hover{
+    content: url("images/media-icons-black/linkedin.png");
+}
+#github{
+    content: url("images/media-icons/github.png");
+}
+#github:hover{
+    content: url("images/media-icons-black/github.png");
+}
+
 
 /*MEDIA ICONS*/
