@@ -8,9 +8,6 @@ Middle:
 
 Create upload image button
 
-In the bottom:
-5 - Social media icons
-
 
 Rate the site
 6 - star rating
@@ -23,6 +20,6 @@ OTHER PROJECT:
 11 - Vertical navigation menu
 12 - get data with fetch
 7 - Stopwatch
-14 - Gloogle clone
+14 - Google clone
 
 ---------------------------------------------------------------------------------------------------- */
