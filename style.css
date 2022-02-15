@@ -80,6 +80,19 @@ body {
     font-size:15px;
 }
 
+.image-input{
+    margin:5px;
+    width: 580px;
+    height: 45px;
+}
+
+.image-input {
+    margin-bottom: 20px;
+    border:none;
+    padding:5px;
+    font-size:15px;
+}
+
 .login-button {
     background-color: blueviolet;
     color: white;
@@ -120,6 +133,7 @@ body {
 .main-picture{
     border-radius: 50%;
     width:200px;
+    height: 200px;
     border:solid blueviolet 5px;
 }
 

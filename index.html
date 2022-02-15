@@ -30,14 +30,17 @@
             </label><br>
             <input type="text" id="password" class="password-input" placeholder="Password"><br>
 
+            <label for="Image" class="password-label">
+                Image
+            </label><br>
+            <input type="file" id="Image" accept="image/*" class="image-input" value="Image"><br>
+
             <div class="login-bottom">
                 <a href="#">Forgot password?</a>
                 <p class="notuser">Not a user?</p> <a href="#">Register</a>
             </div>
 
-            <button class="login-button">Login</button>
-
-
+            <button class="login-button" onclick="createProfile()">Login</button>
         </div>
     </section>
 
@@ -45,7 +48,7 @@
 
         <div class="main-card">
             <div class="picture">
-                <img src="images/images.jpg" alt="Profile Picture" class="main-picture">
+                <img src="images/images.jpg" alt="Profile Picture" class="main-picture" id="uploadedImage">
             </div>
             <div class="first-card">
                 <h1 class="profile-title">Ramon Wilbert</h1>
