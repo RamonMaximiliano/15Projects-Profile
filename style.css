@@ -10,7 +10,7 @@ body {
 
 /*FORM*/
 .login {
-    padding:10px;
+    padding: 10px;
     width: 620px;
     margin: auto;
     margin-top: 100px;
@@ -57,11 +57,11 @@ body {
     margin: 10px;
     width: 580px;
     justify-content: space-between;
-    font-size:20px;
+    font-size: 20px;
 }
 
-.notuser{
-    margin-right:-250px;
+.notuser {
+    margin-right: -250px;
 }
 
 .password-input, .user-name-input, .login-button {
@@ -73,22 +73,22 @@ body {
 
 .password-input, .user-name-input {
     margin-bottom: 20px;
-    border:none;
-    padding:5px;
-    font-size:15px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
 }
 
-.image-input{
-    margin:5px;
+.image-input {
+    margin: 5px;
     width: 580px;
     height: 45px;
 }
 
 .image-input {
     margin-bottom: 20px;
-    border:none;
-    padding:5px;
-    font-size:15px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
 }
 
 .login-button {
@@ -96,45 +96,46 @@ body {
     color: white;
     font-size: 25px;
     height: 50px;
-     border-style:none; 
+    border-style: none;
 }
 
 .login-button:hover {
     background-color: rgb(163, 89, 233);
 }
+
 /*FORM*/
 
 /*PROFILE CARD*/
 /* first-card*/
-.main-card{
-    width:620px;
-    height:300px;
-    margin:auto;
-    margin-top:20px;
+.main-card {
+    width: 620px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
     background-color: white;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
-.picture{
-    padding:30px;
-    padding-top:45px;
-    height:300px;
+.picture {
+    padding: 30px;
+    padding-top: 45px;
+    height: 300px;
     background-color: black;
 }
 
-.main-picture{
+.main-picture {
     border-radius: 50%;
-    width:200px;
+    width: 200px;
     height: 200px;
-    border:solid blueviolet 5px;
+    border: solid blueviolet 5px;
 }
 
-.first-card{
-    padding:30px;
+.first-card {
+    padding: 30px;
 }
 
-.profile-description{
+.profile-description {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -143,124 +144,188 @@ body {
 
 /*second-card*/
 
-.second-card{
-    padding:30px;
-    width:620px;
-    height:280px;
-    margin:auto;
-    margin-top:20px;
+.second-card {
+    padding: 30px;
+    width: 620px;
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
     background-color: white;
     align-items: center;
 }
+
 /*second-card*/
 
 /*third-card*/
-.third-card{
-    padding:30px;
-    width:620px;
-    height:200px;
-    margin:auto;
-    margin-top:20px;
+.third-card {
+    padding: 30px;
+    width: 620px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
     background-color: white;
     align-items: center;
 }
+
 /*third-card*/
 /*PROFILE CARD*/
 
 /*MEDIA ICONS*/
-.social-media-icons{
+.social-media-icons {
     background-color: white;
-    width:620px;
-    margin:auto;
-    margin-top:20px;
-    padding:30px;
-    display:flex;
+    width: 620px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px;
+    display: flex;
     justify-content: space-around;
 }
 
-.media-icons{
-    width:50px;
+.media-icons {
+    width: 50px;
     height: 50px;
-    padding:1px;
-    box-shadow: rgb(121, 121, 121) 2px 2px 20px 0px ;
+    padding: 1px;
+    box-shadow: rgb(121, 121, 121) 2px 2px 20px 0px;
     border-radius: 50%;
-    transition:0.2s;
+    transition: 0.2s;
 }
 
-.media-icons:hover{
-    background-color:rgb(205, 165, 243); ;
+.media-icons:hover {
+    background-color: rgb(205, 165, 243);
+    ;
 }
 
 
-#facebook{
+#facebook {
     content: url("images/media-icons/facebook.png");
 }
-#facebook:hover{
+
+#facebook:hover {
     content: url("images/media-icons-black/facebook.png");
 }
-#instagram{
+
+#instagram {
     content: url("images/media-icons/instagram.png");
 }
-#instagram:hover{
+
+#instagram:hover {
     content: url("images/media-icons-black/instagram.png");
 }
-#twitter{
+
+#twitter {
     content: url("images/media-icons/twitter.png");
 }
-#twitter:hover{
+
+#twitter:hover {
     content: url("images/media-icons-black/twitter.png");
 }
-#linkedin{
+
+#linkedin {
     content: url("images/media-icons/linkedin.png");
 }
-#linkedin:hover{
+
+#linkedin:hover {
     content: url("images/media-icons-black/linkedin.png");
 }
-#github{
+
+#github {
     content: url("images/media-icons/github.png");
 }
-#github:hover{
+
+#github:hover {
     content: url("images/media-icons-black/github.png");
 }
 
 /*MEDIA ICONS*/
 
-.ratingarray{
-    margin:20px;
+.ratingarray {
+    margin: 20px;
     font-size: 30px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-.star1, .star2, .star3, .star4, .star5{
-    margin:20px;
+.star1, .star2, .star3, .star4, .star5 {
+    margin: 20px;
     font-size: 30px;
-    width:40px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: blueviolet;
-} 
-
-.star1:hover{
-    background-color: rgb(230, 6, 6);
-} 
-.star2:hover{
-    background-color: rgb(231, 105, 2);
-} 
-.star3:hover{
-    background-color: rgb(255, 251, 9);
-} 
-.star4:hover{
-    background-color: rgb(164, 192, 6);
-} 
-.star5:hover{
-    background-color: rgb(6, 167, 6);
-} 
-
-.result{
-    margin:10px;
 }
 
-.finalresult{
-    margin:10px;
+.star1clicked {
+    margin: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 6, 6);
+}
+
+.star2clicked {
+    margin: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 105, 2);
+}
+
+.star3clicked {
+    margin: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 251, 9);
+}
+
+.star4clicked {
+    margin: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(164, 192, 6);
+}
+
+.star5clicked {
+    margin: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(6, 167, 6);
+}
+
+.star1:hover {
+    background-color: rgb(230, 6, 6);
+}
+
+.star2:hover {
+    background-color: rgb(231, 105, 2);
+}
+
+.star3:hover {
+    background-color: rgb(255, 251, 9);
+}
+
+.star4:hover {
+    background-color: rgb(164, 192, 6);
+}
+
+.star5:hover {
+    background-color: rgb(6, 167, 6);
+}
+
+.result {
+    margin: 10px;
+}
+
+.finalresult {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
 }
