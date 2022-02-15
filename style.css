@@ -8,9 +8,7 @@ body {
     background-color: rgb(165, 165, 165);
 }
 
-
 /*FORM*/
-
 .login {
     padding:10px;
     width: 620px;
@@ -104,15 +102,10 @@ body {
 .login-button:hover {
     background-color: rgb(163, 89, 233);
 }
-
 /*FORM*/
 
-
-
 /*PROFILE CARD*/
-
 /* first-card*/
-
 .main-card{
     width:620px;
     height:300px;
@@ -148,23 +141,20 @@ body {
 
 /* first-card*/
 
-
 /*second-card*/
 
 .second-card{
     padding:30px;
     width:620px;
-    height:200px;
+    height:280px;
     margin:auto;
     margin-top:20px;
     background-color: white;
     align-items: center;
 }
-
 /*second-card*/
 
 /*third-card*/
-
 .third-card{
     padding:30px;
     width:620px;
@@ -174,14 +164,10 @@ body {
     background-color: white;
     align-items: center;
 }
-
 /*third-card*/
 /*PROFILE CARD*/
 
-
-
 /*MEDIA ICONS*/
-
 .social-media-icons{
     background-color: white;
     width:620px;
@@ -237,5 +223,44 @@ body {
     content: url("images/media-icons-black/github.png");
 }
 
-
 /*MEDIA ICONS*/
+
+.ratingarray{
+    margin:20px;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.star1, .star2, .star3, .star4, .star5{
+    margin:20px;
+    font-size: 30px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+} 
+
+.star1:hover{
+    background-color: rgb(230, 6, 6);
+} 
+.star2:hover{
+    background-color: rgb(231, 105, 2);
+} 
+.star3:hover{
+    background-color: rgb(255, 251, 9);
+} 
+.star4:hover{
+    background-color: rgb(164, 192, 6);
+} 
+.star5:hover{
+    background-color: rgb(6, 167, 6);
+} 
+
+.result{
+    margin:10px;
+}
+
+.finalresult{
+    margin:10px;
+}

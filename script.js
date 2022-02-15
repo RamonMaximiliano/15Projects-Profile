@@ -2,6 +2,8 @@
 Rate the site
 6 - star rating
 
+//Add eventlistener and according to the ball clicked rank the site
+
 ----------------------------------------------------------------------------------------------------
 OTHER PROJECT:
 
@@ -55,5 +57,6 @@ function createProfile() {
     } else {
         window.alert("You did not type the Username!")
     }
-
 }
+
+
